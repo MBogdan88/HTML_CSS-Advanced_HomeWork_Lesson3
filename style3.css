@@ -1,0 +1,77 @@
+.hidden {
+    display: none;
+}
+
+.show {
+    display: inline;
+    position: relative;
+
+}
+
+button {
+    width: 600px;
+}
+
+.active, button:hover {
+    background-color: #070139;
+    color: bisque;
+    border: 1px solid red;
+    height: 25px;
+}
+
+img {
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    margin-left: 7px;
+}
+
+img:hover {
+    transform: scale(1.3);
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+video {
+    width: 800px;
+    height: 500px;
+}
+
+
+#video::-webkit-media-controls {
+    display: none !important;
+}
+
+.controls {
+    position: relative;
+    width: 796px;
+    border: 2px solid #094647;
+    height: 46px;
+    background-color: #85818e;
+}
+
+#fullButton {
+    float: right;
+    width: 45px;
+    height: 45px;
+    padding: 1px 5px 0 0;
+}
+
+#rewaindBack, #playButton,
+#rewaindForward, #stopButton {
+    width: 38px;
+    height: 36px;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+#volumeUp, #volumeDown{
+    margin-top: 6px;
+    border-radius: 4px;
+    width: 40px;
+    height: 35px;
+}
